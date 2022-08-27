@@ -11,17 +11,19 @@ head
   // custom style
   link(rel='stylesheet' href='css/style.css')
 
-body.d-flex.justify-content-center.align-items-center
-  section#content.position-relative.p-5.shadow-lg
-    // Advice ID goes here
-    #header.text-center.mb-4
-    // Advice text goes here
-    #quote.text-center.mb-5
-    picture.my-5
-      source(srcset='images/pattern-divider-mobile.svg' media='(max-width: 375px)')
-      img(src='images/pattern-divider-desktop.svg' alt='Flowers' style='width: 100%')
-    #dice.position-absolute.top-100.start-50.translate-middle
-      img(src='images/icon-dice.svg' alt='')
+body.vh-100.d-flex.align-items-center
+  .container
+    .row.justify-content-center.align-items-center
+      .col-11.col-sm-8.col-md-6.col-lg-4#content.position-relative.shadow-lg.p-5
+        // Advice ID goes here
+        #header.text-center.mb-4
+        // Advice text goes here
+        #quote.text-center.mb-5
+        picture.my-5
+          source(srcset='images/pattern-divider-mobile.svg' media='(max-width: 375px)')
+          img(src='images/pattern-divider-desktop.svg' alt='Flowers' style='width: 100%')
+        #dice.position-absolute.top-100.start-50.translate-middle
+          img(src='images/icon-dice.svg' alt='')
   .attribution.position-absolute.bottom-0.start-50.translate-middle-x.vw-100.p-3
     | Challenge by
     a(href='https://www.frontendmentor.io?ref=challenge' target='_blank') Frontend Mentor
