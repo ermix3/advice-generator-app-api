@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [advice-generator-app-api](https://github.com/ermix3/advice-generator-app-api)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://ermix3.github.io/advice-generator-app-api/)
 
 ## My process
 
